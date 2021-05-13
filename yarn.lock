@@ -232,14 +232,6 @@
   dependencies:
     "@chakra-ui/utils" "1.8.0"
 
-"@chakra-ui/icons@^1.0.5":
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/@chakra-ui/icons/-/icons-1.0.13.tgz#d8eb04479b048d8023ae90d76205cd4a0bf7dd79"
-  integrity sha512-twDpFz2uPVboMTEI4QA2y3EJND3G4+/9AVs730fgnnfhTw4EOJt0Lhfm4Spq1qi1LgHF16x4/Lao1E2imB5lWw==
-  dependencies:
-    "@chakra-ui/icon" "1.1.9"
-    "@types/react" "^17.0.0"
-
 "@chakra-ui/image@1.0.15":
   version "1.0.15"
   resolved "https://registry.yarnpkg.com/@chakra-ui/image/-/image-1.0.15.tgz#57aaf7e22d2793b9278481aab56b27063a922e5b"
@@ -548,15 +540,6 @@
     "@chakra-ui/form-control" "1.3.5"
     "@chakra-ui/utils" "1.8.0"
 
-"@chakra-ui/theme-tools@1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@chakra-ui/theme-tools/-/theme-tools-1.1.2.tgz#09a8797f2ea227e2237bb70fa826837636d77f15"
-  integrity sha512-j3REtWeSgi1UNld3vt858Jgjxv853XBLV4C4eAppFgcgEzaM35348rZO9puyxgyCM36FAoiySKaU50Y1YHiSdQ==
-  dependencies:
-    "@chakra-ui/utils" "1.5.0"
-    "@types/tinycolor2" "1.4.2"
-    tinycolor2 "1.4.2"
-
 "@chakra-ui/theme-tools@1.1.7":
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/@chakra-ui/theme-tools/-/theme-tools-1.1.7.tgz#ffd3dc2d22a935e1a1df47b155c4cef60ff3f603"
@@ -605,15 +588,6 @@
   integrity sha512-IahxR4lNhFxS51r55nwdMJtxlYqEqNz9fcCOHWG4X9mhtp89SP7q57paJfpPLMND+Y2QNM6nWhGICN+w5g6zkg==
   dependencies:
     "@chakra-ui/utils" "1.8.0"
-
-"@chakra-ui/utils@1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@chakra-ui/utils/-/utils-1.5.0.tgz#8ba5ac1353d85c7fbdfa843c8023d9a2b4a2915d"
-  integrity sha512-rHLGzAo7cwIF9LkfEFEqtmgZN4/e1kuu5fVO4DrLJHcOA7c+wibrNK8QaplBefpq+b5bnmmznE4YHpXqG8yiCQ==
-  dependencies:
-    "@types/lodash.mergewith" "4.6.6"
-    css-box-model "1.2.1"
-    lodash.mergewith "4.6.2"
 
 "@chakra-ui/utils@1.8.0", "@chakra-ui/utils@^1.7.0":
   version "1.8.0"
@@ -880,7 +854,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^17.0.0", "@types/react@^17.0.3":
+"@types/react@*", "@types/react@^17.0.3":
   version "17.0.5"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.5.tgz#3d887570c4489011f75a3fc8f965bf87d09a1bea"
   integrity sha512-bj4biDB9ZJmGAYTWSKJly6bMr4BLUiBrx9ujiJEoP9XIDY9CTaPGxE5QWN/1WjpPLzYF7/jRNnV2nNxNe970sw==
