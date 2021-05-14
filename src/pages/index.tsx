@@ -16,7 +16,13 @@ import Item from "../components/Item";
 export default function App() {
   return (
     <Container height="100vh">
-      <Stack spacing="4" width="100%" maxWidth="48rem" pt="8rem" px="1rem">
+      <Stack
+        spacing="4"
+        width="100%"
+        maxWidth="48rem"
+        pt={{ base: 10, sm: 24 }}
+        px="1rem"
+      >
         <Flex
           justifyContent="center"
           alignItems="center"
