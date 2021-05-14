@@ -13,6 +13,7 @@ const theme = extendTheme({
     },
   },
 });
+
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
@@ -22,7 +23,6 @@ function MyApp({ Component, pageProps }: AppProps) {
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"
         />
         <title>snesjhon | Jhon Paredes</title>
-        <link rel="icon" href="../favicon.ico" />
       </Head>
       <ChakraProvider resetCSS theme={theme}>
         <Component {...pageProps} />
