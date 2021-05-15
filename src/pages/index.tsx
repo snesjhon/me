@@ -57,7 +57,17 @@ export default function App() {
         <Item
           title="2020 Playlist"
           type="spotify"
-          href="https://open.spotify.com/playlist/1TqH93AHXOB5kR9aesAbRZ?si=094f7b54c1b84b4c"
+          href="https://open.spotify.com/playlist/2d5ytiXbOVJhW49xkDkvbF?si=034b7f9c26a94749"
+        />
+        <Item
+          title="2019 Playlist"
+          type="spotify"
+          href="https://open.spotify.com/playlist/3kVC8S3934b6JjpG2fJIbZ?si=dfc918d07f434e93"
+        />
+        <Item
+          title="2018 Playlist"
+          type="spotify"
+          href="https://open.spotify.com/playlist/66D0sjQME7XzhhT6ocz9J7?si=2952955bf2e34772"
         />
         <Flex justifyContent="center" pt={4} px={20}>
           <IconButton
