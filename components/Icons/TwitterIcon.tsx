@@ -1,7 +1,7 @@
 import React from "react";
 import { Icon, IconProps } from "@chakra-ui/react";
 
-function IconTwitter(props: IconProps) {
+function TwitterIcon(props: IconProps): JSX.Element {
   return (
     <Icon viewBox="0 0 29 30" fill="none" {...props}>
       <path
@@ -15,4 +15,4 @@ function IconTwitter(props: IconProps) {
   );
 }
 
-export default IconTwitter;
+export default TwitterIcon;
