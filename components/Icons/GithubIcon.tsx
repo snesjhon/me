@@ -1,7 +1,7 @@
 import React from "react";
 import { Icon, IconProps } from "@chakra-ui/react";
 
-function IconGithub(props: IconProps): JSX.Element {
+function GithubIcon(props: IconProps): JSX.Element {
   return (
     <Icon viewBox="0 0 26 28" {...props}>
       <path
@@ -16,4 +16,4 @@ function IconGithub(props: IconProps): JSX.Element {
   );
 }
 
-export default IconGithub;
+export default GithubIcon;
