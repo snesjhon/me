@@ -14,7 +14,7 @@ function Header(): JSX.Element {
         alignItems="baseline"
       >
         <Heading size={headerSize} whiteSpace="nowrap">
-          Jhon Paredes
+          Jhon Salazar
         </Heading>
         <Menu />
       </Box>
