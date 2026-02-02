@@ -1,0 +1,31 @@
+---
+import { profile } from '../data/profile';
+import SocialLinks from './SocialLinks.astro';
+---
+
+<aside class="flex flex-col gap-5">
+  <!-- Mobile: Horizontal layout with avatar and name side by side -->
+  <!-- Desktop: Vertical layout -->
+  <div class="flex lg:flex-col gap-4 lg:gap-5 items-start">
+    <img
+      src={profile.avatar}
+      alt={profile.name}
+      class="w-28 h-28 lg:w-full lg:h-auto lg:max-w-[296px] rounded-full border border-gh-border-default flex-shrink-0"
+    />
+
+    <div class="flex-1 lg:flex-none">
+      <h1 class="text-xl lg:text-2xl font-semibold leading-tight m-0 text-gh-fg-default">{profile.name}</h1>
+      <p class="text-base lg:text-xl font-light text-gh-fg-muted m-0 mt-1">{profile.username}</p>
+
+      <!-- Social links inline on mobile, hidden on desktop (shown below) -->
+      <div class="lg:hidden mt-3">
+        <SocialLinks />
+      </div>
+    </div>
+  </div>
+
+  <!-- Social links on desktop only -->
+  <div class="hidden lg:block">
+    <SocialLinks />
+  </div>
+</aside>

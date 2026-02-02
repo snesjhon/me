@@ -1,0 +1,37 @@
+@import 'github-markdown-css/github-markdown-light.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+    color: #1f2328;
+    background: #ffffff;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .markdown-body {
+    box-sizing: border-box;
+    min-width: 200px;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+
+  /* Override Tailwind's list reset for markdown content */
+  .markdown-body ul {
+    list-style: disc !important;
+    padding-left: 2em !important;
+  }
+
+  .markdown-body ol {
+    list-style: decimal !important;
+    padding-left: 2em !important;
+  }
+
+  .markdown-body li {
+    display: list-item !important;
+  }
+}
