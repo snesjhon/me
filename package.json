@@ -10,6 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.6.1",
     "astro": "^5.17.1",
     "github-markdown-css": "^5.7.0"
   },

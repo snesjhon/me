@@ -1,7 +1,10 @@
 ---
 import Sidebar from '../components/Sidebar.astro';
 import ScrollToTop from '../components/ScrollToTop.astro';
+import { inject } from '@vercel/analytics';
 import '../styles/global.css';
+
+inject();
 ---
 
 <!DOCTYPE html>
