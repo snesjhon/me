@@ -1,19 +1,21 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+  darkMode: ['class', '[data-theme="dark"]'],
   theme: {
     extend: {
       colors: {
-        'gh-canvas-default': '#ffffff',
-        'gh-canvas-subtle': '#f6f8fa',
-        'gh-border-default': '#d0d7de',
-        'gh-border-muted': '#d8dee4',
-        'gh-fg-default': '#1f2328',
-        'gh-fg-muted': '#656d76',
-        'gh-accent-fg': '#0969da',
-        'gh-accent-emphasis': '#0969da',
-        'gh-danger-fg': '#d1242f',
-        'gh-success-fg': '#1a7f37',
+        // GitHub Light (default)
+        'gh-canvas-default': 'var(--gh-canvas-default)',
+        'gh-canvas-subtle': 'var(--gh-canvas-subtle)',
+        'gh-border-default': 'var(--gh-border-default)',
+        'gh-border-muted': 'var(--gh-border-muted)',
+        'gh-fg-default': 'var(--gh-fg-default)',
+        'gh-fg-muted': 'var(--gh-fg-muted)',
+        'gh-accent-fg': 'var(--gh-accent-fg)',
+        'gh-accent-emphasis': 'var(--gh-accent-emphasis)',
+        'gh-danger-fg': 'var(--gh-danger-fg)',
+        'gh-success-fg': 'var(--gh-success-fg)',
       },
       fontFamily: {
         sans: [
