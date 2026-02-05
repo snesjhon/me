@@ -1,24 +1,18 @@
 ---
 import Sidebar from '../components/Sidebar.astro';
 import ScrollToTop from '../components/ScrollToTop.astro';
+import Meta from '../components/Meta.astro';
 import Analytics from '@vercel/analytics/astro';
 import ThemeToggle from '../components/ThemeToggle.astro';
-import '../styles/global.css';
+import { SITE_DESCRIPTION } from "../content/constants";
+import '../content/styles/tailwind.css';
 ---
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>snesjhon | Jhon Salazar</title>
-    <link rel="icon" href="/favicon.ico" />
+    <Meta title="Home" description={SITE_DESCRIPTION} />
     <Analytics />
-    <script is:inline>
-      // Initialize theme before page renders to prevent flash
-      const theme = localStorage.getItem('theme') || 'light';
-      document.documentElement.setAttribute('data-theme', theme);
-    </script>
   </head>
   <body class="bg-gh-canvas-default text-gh-fg-default font-sans antialiased text-sm">
     <div class="grid grid-cols-1 lg:grid-cols-[296px_1fr] gap-4 lg:gap-6 max-w-6xl mx-auto p-4 lg:p-6">
@@ -29,6 +23,5 @@ import '../styles/global.css';
     </div>
     <ThemeToggle />
     <ScrollToTop />
-    <script src="../scripts/scroll.ts"></script>
   </body>
 </html>

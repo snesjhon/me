@@ -1,0 +1,40 @@
+/* Resume-specific styles for pico.css layout */
+
+[role='document'] a {
+  text-decoration: none;
+}
+
+[role='document'] a:hover {
+  text-decoration: underline;
+}
+
+.subLabel {
+  display: block;
+  color: var(--muted-color);
+}
+
+.resume-container {
+  padding: 0.75rem;
+}
+
+.resume-container p {
+  margin-bottom: 0.25rem;
+}
+
+.resume-header .flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume-header span {
+  padding: 0 0.5rem;
+}
+
+.resume-header h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.resume-container h4 {
+  margin-top: 1rem !important;
+}

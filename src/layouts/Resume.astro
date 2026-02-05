@@ -1,0 +1,18 @@
+---
+import pico from "@picocss/pico/css/pico.min.css?url";
+import Meta from "../components/Meta.astro";
+import "../content/styles/resume.css";
+---
+
+<html lang="en">
+  <head>
+    <Meta title="Resume | Jhonatan Salazar" description='Sr. Software Engineer | AI Engineer' />
+    <link rel="stylesheet" href={pico} />
+  </head>
+
+  <body>
+    <main class="resume-container" role="document">
+      <slot />
+    </main>
+  </body>
+</html>
