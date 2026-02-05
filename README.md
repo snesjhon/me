@@ -1,1 +1,1 @@
-# snesjhon.dev
+# snesjhon.com
