@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/lazyhire",
+      "destination": "https://github.com/snesjhon/lazyhire",
+      "permanent": true
+    }
+  ]
+}
