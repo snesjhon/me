@@ -1,4 +1,4 @@
-# snesjhon.com
+# jhonatansalazar.com
 
 A single static page built from two JSON files. No framework, no dependencies.
 
