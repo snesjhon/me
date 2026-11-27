@@ -1,8 +1,18 @@
 {
+  "framework": null,
+  "installCommand": "true",
+  "buildCommand": "node scripts/build.mjs",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
   "redirects": [
     {
-      "source": "/lazyhire",
-      "destination": "https://github.com/snesjhon/lazyhire",
+      "source": "/resume",
+      "destination": "/resume.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/portfolio/:slug*",
+      "destination": "/",
       "permanent": true
     }
   ]

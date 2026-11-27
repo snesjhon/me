@@ -1,26 +1,11 @@
 {
-  "name": "snesjhon-dev",
+  "name": "jhonatansalazar-com",
+  "private": true,
   "type": "module",
-  "version": "1.0.0",
+  "engines": { "node": ">=22" },
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@picocss/pico": "^2.1.1",
-    "@vercel/analytics": "^1.6.1",
-    "astro": "^5.17.1",
-    "astro-pdf": "^1.7.2",
-    "github-markdown-css": "^5.7.0"
-  },
-  "devDependencies": {
-    "@astrojs/check": "^0.9.6",
-    "@astrojs/mdx": "^4.3.13",
-    "@astrojs/tailwind": "^5.1.0",
-    "tailwindcss": "^3.4.0",
-    "typescript": "^5.9.3"
+    "build": "node scripts/build.mjs",
+    "activity": "node scripts/activity.mjs",
+    "dev": "node scripts/build.mjs && npx --yes serve@14.2.4 dist"
   }
 }

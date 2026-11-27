@@ -1,0 +1,222 @@
+{
+  "name": "Jhonatan Salazar",
+  "handle": "snesjhon",
+  "description": "Senior Software Engineer | AI Engineer",
+  "site": "https://jhonatansalazar.com",
+  "title": "Senior Software Engineer",
+  "titles": [
+    "Software Engineer",
+    "AI Engineer"
+  ],
+  "location": "Sacramento, CA",
+  "timezone": "America/Los_Angeles",
+  "email": "snesjhon@gmail.com",
+  "avatar": "/images/avatar.jpg",
+  "resume": "/resume.pdf",
+  "resumeCta": [
+    "It's dangerous to go alone!",
+    "Take this."
+  ],
+  "bio": "I specialize in creating and maintaining complex UI infrastructure. I also collect vinyl and learn new things on YouTube at 4am.",
+  "tagline": "Just a kid from Oakland, running around believing in fairy tales.",
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/snesjhon"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/snesjhon"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/snesjhon/"
+    }
+  ],
+  "github": {
+    "user": "snesjhon",
+    "exclude": [],
+    "feedSize": 10,
+    "perRepo": 3
+  },
+  "status": [
+    {
+      "from": 0,
+      "text": "Up late, probably deep in a YouTube rabbit hole."
+    },
+    {
+      "from": 4,
+      "text": "It's 4am. Learning something new on YouTube, as promised."
+    },
+    {
+      "from": 6,
+      "text": "Coffee first, then code."
+    },
+    {
+      "from": 9,
+      "text": "Heads down, building."
+    },
+    {
+      "from": 17,
+      "text": "Off the clock. Putting on a record."
+    },
+    {
+      "from": 20,
+      "text": "Choosing the next record, or the next side project."
+    }
+  ],
+  "now": [
+    {
+      "name": "rig.nvim",
+      "repo": "rig.nvim",
+      "url": "https://github.com/snesjhon/rig.nvim",
+      "about": "Run coding tasks side by side: a worktree, session and agent per task, on one board.",
+      "status": "New"
+    },
+    {
+      "name": "mux.nvim",
+      "repo": "mux.nvim",
+      "url": "https://github.com/snesjhon/mux.nvim",
+      "about": "Terminal sessions in headless Neovim servers. Like tmux, but in nvim.",
+      "status": "New"
+    },
+    {
+      "name": "LazyHire",
+      "repo": "lazyhire",
+      "url": "https://github.com/snesjhon/lazyhire",
+      "about": "Resume in, applications out.",
+      "status": "v2.0.1"
+    },
+    {
+      "name": "ThinkDeep",
+      "repo": "thinkdeep",
+      "url": "https://thinkdeep.systems",
+      "about": "Study DSA and frontend by learning the mental model before the code.",
+      "status": "Live"
+    },
+    {
+      "name": "dotfiles",
+      "repo": "dotfiles",
+      "url": "https://github.com/snesjhon/dotfiles",
+      "about": "Neovim, Ghostty and the rest of the setup.",
+      "status": "Always"
+    }
+  ],
+  "work": [
+    {
+      "company": "Shopify",
+      "url": "https://www.shopify.com/",
+      "role": "Software Engineer",
+      "start": "2021-03",
+      "end": "2025-11",
+      "summary": "Led frontend and full-stack work across Shopify's Analytics and Product Taxonomy platforms, including the architecture for Unified Analytics and the frontend of the Standard Product Taxonomy.",
+      "highlights": [
+        "Architected Unified Analytics and built the frontend for the Standard Product Taxonomy",
+        "Strengthened performance profiling, visual regression testing and error tracing across millions of log events",
+        "Built AI multi-agent support workflows and mentored interns and junior engineers"
+      ],
+      "stack": [
+        "React",
+        "TypeScript",
+        "GraphQL",
+        "Ruby on Rails",
+        "Playwright"
+      ],
+      "image": "/images/shopify1.png"
+    },
+    {
+      "company": "conDati",
+      "url": "https://condati.com/",
+      "role": "Sr. UI Engineer",
+      "start": "2018-05",
+      "end": "2021-03",
+      "summary": "Built the UI infrastructure for an analytics platform that turns customer, event and transaction data into dashboards, alerts and automatic reports.",
+      "highlights": [
+        "Built the frontend architecture of the conDati Analytics Platform from the ground up",
+        "Made ML-powered analytics readable through interactive D3 dashboards",
+        "Managed a team of engineers and modernized the legacy codebase"
+      ],
+      "stack": [
+        "React",
+        "Redux",
+        "TypeScript",
+        "D3",
+        "Python"
+      ],
+      "image": "/images/condati1.jpg"
+    },
+    {
+      "company": "Akamai mPulse",
+      "url": "https://www.akamai.com/",
+      "role": "Software Engineer II",
+      "start": "2017-01",
+      "end": "2018-05",
+      "summary": "Real user monitoring: visibility into how people perceive performance, and the third-party resources slowing sites down.",
+      "highlights": [
+        "Lead developer on the move from legacy UI to React",
+        "Shipped the Timeline view, rendering millions of data points with React Virtualized",
+        "Built tools to find third-party resource bottlenecks"
+      ],
+      "stack": [
+        "React",
+        "Redux",
+        "JavaScript",
+        "D3"
+      ],
+      "image": "/images/akamai1.jpg"
+    },
+    {
+      "company": "SOASTA",
+      "url": "https://www.akamai.com/",
+      "role": "Software Engineer",
+      "start": "2015-01",
+      "end": "2017-01",
+      "summary": "Cloud testing services and a browser-based product for load, performance, functional and UI testing. Acquired by Akamai.",
+      "highlights": [
+        "Lead designer and WordPress developer for the marketing site"
+      ],
+      "stack": [
+        "JavaScript",
+        "WordPress"
+      ],
+      "image": "/images/soasta1.jpg"
+    }
+  ],
+  "skills": {
+    "Frontend": [
+      "React",
+      "TypeScript",
+      "Redux",
+      "GraphQL",
+      "Polaris",
+      "D3",
+      "Storybook",
+      "Chromatic"
+    ],
+    "Backend": [
+      "Ruby on Rails",
+      "Node.js",
+      "GraphQL",
+      "Python"
+    ],
+    "Tooling": [
+      "GitHub Actions",
+      "CI/CD",
+      "Docker",
+      "Playwright",
+      "Visual regression testing"
+    ],
+    "AI": [
+      "Claude Code",
+      "MCP servers",
+      "Multi-agent orchestration",
+      "Prompt engineering"
+    ]
+  },
+  "education": [
+    {
+      "school": "University of California, Davis",
+      "degree": "B.A., Psychology & Sociology"
+    }
+  ]
+}
