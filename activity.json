@@ -1,0 +1,68 @@
+{
+  "generated": "2026-11-27",
+  "start": "2026-05-24",
+  "days":[0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,13,1,0,0,0,0,0,1,0,3,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,1,1,1,2,0,0,0,0,0,0,0,4,0,0,0,2,0,5,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,5,0,1,0,1,1,0,1,0,2,0,1,13,7,0,0,0,11,17,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0,0,0,0,0,0,6,0,0,1],
+  "total": 135,
+  "lastCommit": {
+    "mux.nvim": "2026-11-27",
+    "rig.nvim": "2026-11-24",
+    "dotfiles": "2026-11-24",
+    "lazyhire": "2026-09-11",
+    "world": "2026-08-27",
+    "gitlab-nvim-theme": "2026-08-26",
+    "obsidian-yazi": "2026-06-17",
+    "thinkdeep": "2026-06-01"
+  },
+  "feed": [
+    {
+      "date": "2026-11-27",
+      "repo": "mux.nvim",
+      "text": "Update defaults for mux state without configs"
+    },
+    {
+      "date": "2026-11-24",
+      "repo": "rig.nvim",
+      "text": "Path changes based on mux location"
+    },
+    {
+      "date": "2026-11-24",
+      "repo": "dotfiles",
+      "text": "Add mux instead of all of rig"
+    },
+    {
+      "date": "2026-11-24",
+      "repo": "rig.nvim",
+      "text": "Add rig: worktrees, agents, and a board on mux sessions"
+    },
+    {
+      "date": "2026-11-24",
+      "repo": "mux.nvim",
+      "text": "Add mux: terminal sessions in nvim servers"
+    },
+    {
+      "date": "2026-11-17",
+      "repo": "dotfiles",
+      "text": "Add split pane zooming"
+    },
+    {
+      "date": "2026-11-14",
+      "repo": "dotfiles",
+      "text": "Render markdown config"
+    },
+    {
+      "date": "2026-09-11",
+      "repo": "lazyhire",
+      "text": "Released v2.0.1"
+    },
+    {
+      "date": "2026-09-11",
+      "repo": "lazyhire",
+      "text": "Allow the ability to edit settings"
+    },
+    {
+      "date": "2026-08-27",
+      "repo": "world",
+      "text": "Update more reqs"
+    }
+  ]
+}

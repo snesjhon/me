@@ -1,0 +1,48 @@
+name: Weekly activity
+
+on:
+  schedule:
+    - cron: "0 15 * * 1" # Mondays, 7am Pacific
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Regenerate activity.json
+        run: node scripts/activity.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check the site still builds
+        run: node scripts/build.mjs
+
+      - name: Open and merge a PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if git diff --quiet -- activity.json; then
+            echo "No activity changes this week."
+            exit 0
+          fi
+          day=$(date -u +%F)
+          branch="activity/$day"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add activity.json
+          git commit -m "activity: weekly update $day"
+          git push -u origin "$branch"
+          gh pr create --base main --head "$branch" \
+            --title "Weekly activity: $day" \
+            --body "Automated refresh of \`activity.json\` from GitHub. Merged by the workflow."
+          gh pr merge "$branch" --squash --delete-branch
